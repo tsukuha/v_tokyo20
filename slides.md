@@ -995,3 +995,59 @@ a {
   font-size: 12px;
 }
 </style>
+
+---
+transition: slide-up
+layout: section-2
+background: ./img/section-2.svg
+---
+
+# おわりに
+
+- vuejs/language-toolsについて
+  - IDEなどのExtensionsで利用されており、DXに貢献している
+  - 言語サーバー機能と型チェッカー機能をもっている
+  - Volar.jsをベースとしている
+- 大方の言語サーバーは、LSP（Language Server Protocol）に則っている
+- `vue-tsc` を利用して、型チェック機能を確認した
+
+
+<div class="abs-br mr-2 counter">
+  <SlideCurrentNo class="counter"/>
+</div>
+
+<style>
+html {
+  color: #3e3e3e;
+}
+html.dark {
+  color: #efefef;
+}
+.counter {
+  padding-bottom: 4px;
+  font-family: "メイリオ";
+  font-size: 12px;
+}
+.description {
+  opacity: 0.8;
+  padding-bottom: 16px;
+}
+h1 {
+   background-image: linear-gradient(90deg, rgba(167, 199, 240, 1), rgba(178, 207, 249, 1) 0%, rgba(98, 166, 255, 1) 26%, rgba(28, 128, 238, 1) 70%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  font-weight: 500;
+  padding-bottom: 8px;
+}
+h2 {
+  padding-bottom: 8px;
+  font-size: 26px;
+}
+div, p, span, li, button, tr, td {
+  font-size: 22px;
+  line-height: 1.8;
+}
+</style>
