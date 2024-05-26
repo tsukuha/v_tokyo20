@@ -467,7 +467,6 @@ div, p, span, li, button, tr, td {
 }
 a {
   opacity: 0.8;
-  color: #3e3e3e;
   position: absolute;
   bottom: 16px;
   font-size: 16px;
@@ -714,7 +713,10 @@ div, p, span, li, button, tr, td {
   font-size: 14px;
 }
 a {
-  font-size: 20px;
+  opacity: 0.8;
+  position: absolute;
+  bottom: 8px;
+  font-size: 12px;
 }
 </style>
 
@@ -821,7 +823,10 @@ div, p, span, li, button, tr, td {
   font-size: 14px;
 }
 a {
-  font-size: 20px;
+  opacity: 0.8;
+  position: absolute;
+  bottom: 8px;
+  font-size: 12px;
 }
 </style>
 
@@ -910,6 +915,9 @@ div, p, span, li, button, tr, td {
   line-height: 1.5;
 }
 a {
-  font-size: 20px;
+  opacity: 0.8;
+  position: absolute;
+  bottom: 8px;
+  font-size: 12px;
 }
 </style>
