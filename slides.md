@@ -486,7 +486,7 @@ layout: section-2
 background: ./img/section-2.svg
 ---
 
-# 言語サーバーの機能について
+# 言語サーバー機能について
 
 ## 概要
 vuejs/language-toolsの、`@vue/language-server` で、LSPに則って処理を行う言語サーバーの処理が実装されています。
