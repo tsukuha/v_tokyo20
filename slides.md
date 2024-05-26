@@ -1,10 +1,6 @@
 ---
-# try also 'default' to start simple
 theme: ./theme
-# random image from a curated Unsplash collection by Anthony
-# like them? see https://unsplash.com/collections/94734566/slidev
 background: ./img/000019.jpg
-# some information about your slides, markdown enabled
 title: What is vuejs/language-tools?
 info: |
   ## Slidev Starter Template
@@ -28,7 +24,14 @@ mdc: true
 
 presentation for about vuejs/language-tools and Volar.js
 
+## v-tokyo20, karacoro / からころ
 
+<div class="abs-br m-6 mr-18 flex gap-2">
+  <a href="https://x.com/karan_corons" target="_blank" alt="X" title="Open in X"
+    class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
+    <carbon-logo-x />
+  </a>
+</div>
 <div class="abs-br m-6 flex gap-2">
   <a href="https://github.com/tsukuha" target="_blank" alt="GitHub" title="Open in GitHub"
     class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
@@ -39,6 +42,9 @@ presentation for about vuejs/language-tools and Volar.js
 <style>
 .slidev-layout p {
   opacity: 0.7;
+}
+.h2 {
+  opacity: 0.6;
 }
 </style>
 
