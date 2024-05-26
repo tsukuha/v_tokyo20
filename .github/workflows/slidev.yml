@@ -16,7 +16,7 @@ jobs:
           node-version: '20'
       # Pick your own package manager and build script
       - run: npm install
-      - run: npx slidev build --base ./v_tokyo20
+      - run: npx slidev build --base ./
       - run: cp -r ./img ./dist
       - run: rsync -ahv ./dist/* ./dist/v_tokyo20 --exclude './dist/v_tokyo20'
       - name: Upload artifact
