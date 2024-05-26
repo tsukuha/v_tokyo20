@@ -18,7 +18,7 @@ jobs:
       - run: npm install
       - run: npx slidev build --base ./v_tokyo20
       - run: cp -r ./img ./dist
-      - run: cp -R ./dist/* ./dist/v_tokyo20
+      - run: rsync -ahv ./dist/* ./dist/v_tokyo20 --exclude './dist/v_tokyo20'
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
