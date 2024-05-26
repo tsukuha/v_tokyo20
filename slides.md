@@ -44,6 +44,7 @@ presentation for about vuejs/language-tools and Volar.js
 
 ---
 layout: section-1
+background: ./img/section-1.svg
 ---
 # 本日のアジェンダ
 1. はじめに
@@ -87,6 +88,7 @@ div, p, span, li {
 ---
 transition: slide-up
 layout: section-2
+background: ./img/section-2.svg
 ---
 
 # はじめに
@@ -136,6 +138,7 @@ div, p, span, li, button, tr, td {
 ---
 transition: slide-up
 layout: section-2
+background: ./img/section-2.svg
 ---
 
 # vuejs/language-toolsについて
@@ -380,6 +383,7 @@ a {
 
 ---
 layout: section-2
+background: ./img/section-2.svg
 ---
 
 # LSP（Language Server Protocol）とは
@@ -441,6 +445,7 @@ a {
 
 ---
 layout: section-2
+background: ./img/section-2.svg
 ---
 
 # vue-tscで理解するvuejs/language-tools
@@ -497,6 +502,7 @@ a {
 
 ---
 layout: section-2
+background: ./img/section-2.svg
 ---
 
 # vue-tscで理解するvuejs/language-tools
