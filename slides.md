@@ -26,7 +26,7 @@ htmlAttrs:
 
 presentation for about vuejs/language-tools and Volar.js
 
-## v-tokyo20, karacoro / からころ
+## v-tokyo#20, karacoro / からころ
 
 <div class="abs-br m-6 mr-18 flex gap-2">
   <a href="https://x.com/karan_corons" target="_blank" alt="X" title="Open in X"
