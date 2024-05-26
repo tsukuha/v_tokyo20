@@ -4,7 +4,7 @@ import { handleBackgroundPure } from '../layoutHelper'
 const props = defineProps({
   background: {
     // random image from a curated Unsplash collection by Anthony
-    default: '../../img/section-1.svg',
+    default: '../../img/section-1.jpg',
   },
 })
 const style = computed(() => handleBackgroundPure(props.background, true))
