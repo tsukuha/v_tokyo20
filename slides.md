@@ -50,8 +50,7 @@ background: ./img/section-1.svg
 1. はじめに
 2. vuejs/language-toolsについて
 4. LSP（Language Server Protocol）とは
-3. 言語サーバー機能について
-5. 型チェッカー機能について
+5. 言語サーバー機能について
 6. vue-tscで理解するvuejs/language-tools
 7. おわりに
 
