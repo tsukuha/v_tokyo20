@@ -49,10 +49,10 @@ background: ./img/section-1.svg
 # 本日のアジェンダ
 1. はじめに
 2. vuejs/language-toolsについて
-4. LSP（Language Server Protocol）とは
-5. 言語サーバー機能について
-6. vue-tscで理解するvuejs/language-tools
-7. おわりに
+3. LSP（Language Server Protocol）とは
+4. 言語サーバー機能について
+5. vue-tscで理解するvuejs/language-tools
+6. おわりに
 
 <div class="abs-br mr-2">
   <SlideCurrentNo class="counter" />
