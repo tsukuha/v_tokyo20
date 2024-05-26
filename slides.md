@@ -102,7 +102,7 @@ vuejs/language-toolsは、VSCodeをはじめとしたIDEのVue.js用言語ツー
 ## 今日話すこと・持ち帰って欲しいこと
 - vuejs/language-tools について知る
 - 言語サーバーとしてのvuejs/language-toolsの役割を理解する
-- vue-tscを通して、型チェッカーととしてのvuejs/language-toolsの役割を理解する
+- vue-tscを通して、型チェッカーとしてのvuejs/language-toolsの役割を理解する
 - Volar.js と vuejs/language-tools の関係性を理解する
 
 
