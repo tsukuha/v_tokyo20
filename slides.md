@@ -174,7 +174,7 @@ vuejs/language-toolsはVue.js用の言語ツール群で、<br>
   - `@vue/typescript-plugin` .etc
 
 - 型チェック機能に関するパッケージ例
-  - `Vue Language Feature (Volar)`
+  - `Vue Language Feature`
   - `vue-tsc` .etc
 <div class="abs-br mr-2 counter">
   <SlideCurrentNo class="counter" />
@@ -417,10 +417,9 @@ background: ./img/section-2.svg
 
 # LSP（Language Server Protocol）とは
 
-## 概要
 <div class="description">
-LSP（Language Server Protocol）とは、Microsoft社が2016年に策定した、<br> 
-IDM開発者に向けた、言語サーバ-を実現するための、JSON-RPCベースのプロトコル。<br>
+LSP（Language Server Protocol）とは、Microsoft社がIDM開発者に向けて、<br>
+2016年に発表した言語サーバ-を実現するための、JSON-RPCベースのプロトコル。<br>
 vuejs/language-toolsもVue.js用の言語サーバーを含んでおり、LSPに則って実装<br>
 されている。
 </div>
@@ -454,6 +453,69 @@ html.dark {
   padding-bottom: 4px;
   font-family: "メイリオ";
   font-size: 12px;
+}
+h1 {
+   background-image: linear-gradient(90deg, rgba(167, 199, 240, 1), rgba(178, 207, 249, 1) 0%, rgba(98, 166, 255, 1) 26%, rgba(28, 128, 238, 1) 70%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  font-weight: 500;
+  padding-bottom: 8px;
+}
+h2 {
+  padding-bottom: 8px;
+  font-size: 26px;
+}
+div, p, span, li, button, tr, td {
+  font-size: 22px;
+  line-height: 1.5;
+}
+a {
+  opacity: 0.8;
+  position: absolute;
+  bottom: 16px;
+  font-size: 16px;
+}
+</style>
+
+---
+transition: slide-up
+layout: section-2
+background: ./img/section-2.svg
+---
+
+# 言語サーバーの機能について
+
+## 概要
+vuejs/language-toolsの、`@vue/language-server` で、LSPに則って処理を行う言語サーバーの処理が実装されています。
+
+
+
+[ref: https://github.com/vuejs/language-tools/blob/master/packages/language-server/node.ts](https://github.com/vuejs/language-tools/blob/master/packages/language-server/node.ts)
+<div class="abs-br mr-2 counter">
+  <SlideCurrentNo class="counter" />
+</div>
+
+<style>
+html {
+  color: #3e3e3e;
+}
+html.dark {
+  color: #efefef;
+}
+.description {
+  opacity: 0.8;
+  padding-bottom: 8px;
+}
+.counter {
+  padding-bottom: 4px;
+  font-family: "メイリオ";
+  font-size: 12px;
+}
+.slidev-layout p {
+  margin-top: 0
 }
 h1 {
    background-image: linear-gradient(90deg, rgba(167, 199, 240, 1), rgba(178, 207, 249, 1) 0%, rgba(98, 166, 255, 1) 26%, rgba(28, 128, 238, 1) 70%);
