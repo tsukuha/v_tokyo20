@@ -421,7 +421,7 @@ background: ./img/section-2.svg
 LSP（Language Server Protocol）とは、Microsoft社がIDM開発者に向けて、<br>
 2016年に発表した言語サーバ-を実現するための、JSON-RPCベースのプロトコル。<br>
 vuejs/language-toolsもVue.js用の言語サーバーを含んでおり、LSPに則って実装<br>
-されている。
+されている。<br>
 </div>
 
 - VSCodeでVue.js用のExtensionsを適用すると言語サーバーの実プロセスが確認できる
@@ -480,6 +480,8 @@ a {
 }
 </style>
 
+<!-- 用語: RPC（Remote Procedure Call） -->
+
 ---
 transition: slide-up
 layout: section-2
@@ -489,7 +491,8 @@ background: ./img/section-2.svg
 # 言語サーバー機能について
 
 ## 概要
-vuejs/language-toolsの、`@vue/language-server` で、LSPに則って処理を行う言語サーバーの処理が実装されています。
+vuejs/language-toolsの、`@vue/language-server` に、LSPに則って処理を行う<br>
+言語サーバーが実装されています。
 
 
 
@@ -515,7 +518,8 @@ html.dark {
   font-size: 12px;
 }
 .slidev-layout p {
-  margin-top: 0
+  margin-top: 0;
+  opacity: 0.8;
 }
 h1 {
    background-image: linear-gradient(90deg, rgba(167, 199, 240, 1), rgba(178, 207, 249, 1) 0%, rgba(98, 166, 255, 1) 26%, rgba(28, 128, 238, 1) 70%);
