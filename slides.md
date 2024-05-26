@@ -2,11 +2,10 @@
 theme: ./theme
 background: ./img/000019.jpg
 title: What is vuejs/language-tools?
+titleTemplate: '%s - What is vuejs/language-tools?'
 info: |
-  ## Slidev Starter Template
-  Presentation slides for developers.
-
-  Learn more at [Sli.dev](https://sli.dev)
+  presentation about vuejs/language-tools, created by karacoro / からころ
+author: karacoro
 # apply any unocss classes to the current slide
 class: text-center
 # https://sli.dev/custom/highlighters.html
@@ -18,6 +17,9 @@ drawings:
 transition: slide-up
 # enable MDC Syntax: https://sli.dev/guide/syntax#mdc-syntax
 mdc: true
+presenter: true
+htmlAttrs:
+  lang: ja
 ---
 
 # What is vuejs/language-tools?
