@@ -4,11 +4,14 @@ import { handleBackgroundPure } from '../layoutHelper'
 const props = defineProps({
   background: {
     // random image from a curated Unsplash collection by Anthony
-    default: '../../img/section-2.jpg',
+    default: '../../img/section-2.svg',
   },
 })
 const style = computed(() => handleBackgroundPure(props.background, true))
 </script>
+
+<style>
+</style>
 
 <template>
   <div :style class="slidev-layout">

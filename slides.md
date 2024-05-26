@@ -60,6 +60,12 @@ background: ./img/section-1.svg
 </div>
 
 <style>
+html {
+  color: #3e3e3e;
+}
+html.dark {
+  color: #efefef;
+}
 .counter {
   padding-bottom: 4px;
   font-family: "メイリオ";
@@ -75,12 +81,8 @@ h1 {
   font-weight: 500;
   padding-bottom: 8px;
 }
-h2 {
-  color: #3e3e3e
-}
 div, p, span, li {
   font-size: 24px;
-  color: #3e3e3e
 }
 </style>
 
@@ -94,7 +96,9 @@ background: ./img/section-2.svg
 # はじめに
 
 ## DX（開発者体験）との関係性
-- vuejs/language-toolsは、VSCodeをはじめとしたIDEのVue.js用言語ツールに活用されていて、DXに貢献している。
+<div class="description">
+vuejs/language-toolsは、VSCodeをはじめとしたIDEのVue.js用言語ツールに活用されていて、DXに貢献している。
+</div>
 
 ## 今日話すこと・持ち帰って欲しいこと
 - vuejs/language-tools について知る
@@ -108,10 +112,20 @@ background: ./img/section-2.svg
 </div>
 
 <style>
+html {
+  color: #3e3e3e;
+}
+html.dark {
+  color: #efefef;
+}
 .counter {
   padding-bottom: 4px;
   font-family: "メイリオ";
   font-size: 12px;
+}
+.description {
+  opacity: 0.8;
+  padding-bottom: 16px;
 }
 h1 {
    background-image: linear-gradient(90deg, rgba(167, 199, 240, 1), rgba(178, 207, 249, 1) 0%, rgba(98, 166, 255, 1) 26%, rgba(28, 128, 238, 1) 70%);
@@ -126,11 +140,9 @@ h1 {
 h2 {
   padding-bottom: 8px;
   font-size: 26px;
-  color: #3e3e3e;
 }
 div, p, span, li, button, tr, td {
   font-size: 22px;
-  color: #3e3e3e;
   line-height: 1.5;
 }
 </style>
@@ -144,8 +156,10 @@ background: ./img/section-2.svg
 # vuejs/language-toolsについて
 
 ## 概要
+<div class="description">
 vuejs/language-toolsはVue.js用の言語ツール群で、<br>
 言語サーバー機能と型チェック機能の大きく2つの機能に分けられる。
+</div>
 
 - 言語サーバー機能に関するパッケージ例
   - `@vue/language-server`
@@ -160,6 +174,16 @@ vuejs/language-toolsはVue.js用の言語ツール群で、<br>
 </div>
 
 <style>
+html {
+  color: #3e3e3e;
+}
+html.dark {
+  color: #efefef;
+}
+.description {
+  opacity: 0.8;
+  padding-bottom: 8px;
+}
 .counter {
   padding-bottom: 4px;
   font-family: "メイリオ";
@@ -178,11 +202,9 @@ h1 {
 h2 {
   padding-bottom: 8px;
   font-size: 26px;
-  color: #3e3e3e;
 }
 div, p, span, li, button, tr, td {
   font-size: 22px;
-  color: #3e3e3e;
   line-height: 1.5;
 }
 </style>
@@ -344,6 +366,12 @@ flowchart LR
 </div>
 
 <style>
+html {
+  color: #3e3e3e;
+}
+html.dark {
+  color: #efefef;
+}
 .counter {
   padding-bottom: 4px;
   font-family: "メイリオ";
@@ -362,19 +390,13 @@ h1 {
 h2 {
   padding-bottom: 8px;
   font-size: 26px;
-  color: #3e3e3e;
-}
-.slidev-layout p {
-  opacity: 0.8;
 }
 div, p, span, li, button, tr, td {
   font-size: 22px;
-  color: #3e3e3e;
   line-height: 1.5;
 }
 a {
   opacity: 0.8;
-  color: #3e3e3e;
   position: absolute;
   bottom: 8px;
   font-size: 12px;
@@ -389,10 +411,12 @@ background: ./img/section-2.svg
 # LSP（Language Server Protocol）とは
 
 ## 概要
+<div class="description">
 LSP（Language Server Protocol）とは、Microsoft社が2016年に策定した、<br> 
 IDM開発者に向けた、言語サーバ-を実現するための、JSON-RPCベースのプロトコル。<br>
 vuejs/language-toolsもVue.js用の言語サーバーを含んでおり、LSPに則って実装<br>
 されている。
+</div>
 
 - VSCodeでVue.js用のExtensionsを適用すると言語サーバーの実プロセスが確認できる
 
@@ -409,6 +433,16 @@ vuejs/language-toolsもVue.js用の言語サーバーを含んでおり、LSPに
 </div>
 
 <style>
+html {
+  color: #3e3e3e;
+}
+html.dark {
+  color: #efefef;
+}
+.description {
+  opacity: 0.8;
+  padding-bottom: 8px;
+}
 .counter {
   padding-bottom: 4px;
   font-family: "メイリオ";
@@ -427,11 +461,9 @@ h1 {
 h2 {
   padding-bottom: 8px;
   font-size: 26px;
-  color: #3e3e3e;
 }
 div, p, span, li, button, tr, td {
   font-size: 22px;
-  color: #3e3e3e;
   line-height: 1.5;
 }
 a {
@@ -463,6 +495,12 @@ background: ./img/section-2.svg
 </div>
 
 <style>
+html {
+  color: #3e3e3e;
+}
+html.dark {
+  color: #efefef;
+}
 .counter {
   padding-bottom: 4px;
   font-family: "メイリオ";
@@ -481,19 +519,13 @@ h1 {
 h2 {
   padding-bottom: 8px;
   font-size: 26px;
-  color: #3e3e3e;
-}
-.slidev-layout p {
-  opacity: 0.8;
 }
 div, p, span, li, button, tr, td {
   font-size: 22px;
-  color: #3e3e3e;
   line-height: 1.5;
 }
 a {
   opacity: 0.8;
-  color: #3e3e3e;
   position: absolute;
   bottom: 16px;
   font-size: 16px;
@@ -539,6 +571,12 @@ export function run() {
 </div>
 
 <style>
+html {
+  color: #3e3e3e;
+}
+html.dark {
+  color: #efefef;
+}
 .counter {
   padding-bottom: 4px;
   font-family: "メイリオ";
@@ -557,19 +595,16 @@ h1 {
 h2 {
   padding-bottom: 8px;
   font-size: 26px;
-  color: #3e3e3e;
 }
 .slidev-layout h1 p {
   opacity: 0.8;
 }
 div, p, span, li, button, tr, td {
   font-size: 22px;
-  color: #3e3e3e;
   line-height: 1.5;
 }
 a {
   opacity: 0.8;
-  color: #3e3e3e;
   position: absolute;
   bottom: 16px;
   font-size: 16px;
@@ -637,6 +672,12 @@ defineSlots<{
 </div>
 
 <style>
+html {
+  color: #3e3e3e;
+}
+html.dark {
+  color: #efefef;
+}
 .counter {
   padding-bottom: 4px;
   font-family: "メイリオ";
@@ -652,9 +693,6 @@ defineSlots<{
 .wrapper {
   display: flex;
   width: 100%
-}
-.slidev-layout p {
-  opacity: 0.8;
 }
 .col {
   width: 50%
@@ -672,14 +710,9 @@ h1 {
 h2 {
   padding-bottom: 8px;
   font-size: 26px;
-  color: #3e3e3e;
-}
-.slidev-layout p {
-  opacity: 0.8;
 }
 div, p, span, li, button, tr, td {
   font-size: 14px;
-  color: #3e3e3e;
 }
 a {
   font-size: 20px;
@@ -746,6 +779,12 @@ const items = [
 </div>
 
 <style>
+html {
+  color: #3e3e3e;
+}
+html.dark {
+  color: #efefef;
+}
 .counter {
   padding-bottom: 4px;
   font-family: "メイリオ";
@@ -761,9 +800,6 @@ const items = [
 .wrapper {
   display: flex;
   width: 100%
-}
-.slidev-layout h1 p {
-  opacity: 0.8;
 }
 .col {
   width: 50%
@@ -781,14 +817,9 @@ h1 {
 h2 {
   padding-bottom: 8px;
   font-size: 26px;
-  color: #3e3e3e;
-}
-.slidev-layout p {
-  opacity: 0.8;
 }
 div, p, span, li, button, tr, td {
   font-size: 14px;
-  color: #3e3e3e;
 }
 a {
   font-size: 20px;
@@ -827,12 +858,17 @@ propsで渡しているitemsの型とSlotTestsChild<br>
 </div>
 
 <style>
+html {
+  color: #3e3e3e;
+}
+html.dark {
+  color: #efefef;
+}
 .description {
   border-radius: 6px;
   background: rgba(178, 207, 249, 0.3);
   margin-top: 16px;
   padding: 8px;
-  color: #3e3e3e;
   opacity: 0.8;
   font-size: 20px;
 }
@@ -869,11 +905,9 @@ h2 {
   padding-top: 8px;
   padding-bottom: 8px;
   font-size: 26px;
-  color: #3e3e3e;
 }
 div, p, span, li, button, tr, td {
   font-size: 14px;
-  color: #3e3e3e;
   line-height: 1.5;
 }
 a {

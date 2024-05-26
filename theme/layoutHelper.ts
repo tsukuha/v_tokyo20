@@ -46,7 +46,7 @@ export function handleBackgroundPure(background?: string, dim = false): CSSPrope
       ? background
       : undefined,
     color: (background && !isColor)
-      ? 'white'
+      ? undefined
       : undefined,
     backgroundImage: isColor
       ? undefined
