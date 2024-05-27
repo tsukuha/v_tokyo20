@@ -3,7 +3,7 @@ import fs from "node:fs"
 import { fileURLToPath } from "node:url"
 import { parse, HTMLElement } from "node-html-parser"
 const __dirname = fileURLToPath(import.meta.url) // scripts/og.ts
-const dist = path.join(__dirname, "../../dist")
+const dist = path.join(__dirname, "./dist")
 const indexHtml = path.join(dist, "index.html")
 
 interface OgMeta {
