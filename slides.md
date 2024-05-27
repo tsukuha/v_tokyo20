@@ -566,7 +566,7 @@ background: ./img/section-2.svg
 
 ## Volar.jsについて
 <div class="description">
-Volar.jsは、Vue.jsやAstro, MDX, Imbaなどの組み込み型フレームワーク用の<br>言語ツールで、vuejs/language-toolsに組み込まれています。<br>
+Volar.jsは、Vue.jsやAstro, MDX, Analog (Angular) などの組み込み型フレームワーク用の<br>言語ツールで、vuejs/language-toolsに組み込まれています。<br>
 Vue.jsコミュニティ発のツールですが、Vue.jsのみにとどまらず、<br>
 他のフレームワークでも活用可能で実際に利用されています。
 </div>
