@@ -3,9 +3,9 @@ theme: ./theme
 background: ./img/000019.jpg
 title: What is vuejs/language-tools?
 titleTemplate: '%s - What is vuejs/language-tools?'
-info: |
-  presentation about vuejs/language-tools, created by karacoro / からころ
+info: presentation about vuejs/language-tools, created by karacoro / からころ
 author: karacoro
+preview: ./img/v_tokyo.png
 # apply any unocss classes to the current slide
 class: text-center
 # https://sli.dev/custom/highlighters.html
