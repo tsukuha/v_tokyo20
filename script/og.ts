@@ -34,7 +34,7 @@ const OG_META = [
   },
   {
     name: "og:image",
-    content: "https://tsukuha.github.io/v_tokyo20/img/v_tokyo.png",
+    content: "/v_tokyo20/img/v_tokyo.png",
   },
 ] as const satisfies OgMeta[]
 
