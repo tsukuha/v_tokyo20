@@ -5,7 +5,6 @@ title: What is vuejs/language-tools?
 titleTemplate: '%s - What is vuejs/language-tools?'
 info: presentation about vuejs/language-tools, created by karacoro / からころ
 author: karacoro
-preview: ./img/v_tokyo.png
 # apply any unocss classes to the current slide
 class: text-center
 # https://sli.dev/custom/highlighters.html
@@ -494,14 +493,22 @@ background: ./img/section-2.svg
 vuejs/language-toolsの、`@vue/language-server` に、LSPに則って処理を行う<br>
 言語サーバーが実装されています。
 
-
+<p v-click class="assertion">実コードをみてみましょう！</p>
 
 [ref: https://github.com/vuejs/language-tools/blob/master/packages/language-server/node.ts](https://github.com/vuejs/language-tools/blob/master/packages/language-server/node.ts)
+
+
 <div class="abs-br mr-2 counter">
   <SlideCurrentNo class="counter" />
 </div>
 
 <style>
+.assertion {
+  padding: 40px 40px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 28px;
+}
 html {
   color: #3e3e3e;
 }
@@ -558,7 +565,11 @@ background: ./img/section-2.svg
 - Volar.js
 
 ## Volar.jsについて
-
+<div class="description">
+Volar.jsは、Vue.jsやAstro, MDX, Imbaなどの組み込み型フレームワーク用の<br>言語ツールで、vuejs/language-toolsに組み込まれています。<br>
+Vue.jsコミュニティ発のツールですが、Vue.jsのみにとどまらず、<br>
+他のフレームワークでも活用可能で実際に利用されています。
+</div>
 
 [ref: https://github.com/volarjs/volar.js](https://github.com/volarjs/volar.js)
 
@@ -572,6 +583,10 @@ html {
 }
 html.dark {
   color: #efefef;
+}
+.description {
+  opacity: 0.8;
+  padding-bottom: 8px;
 }
 .counter {
   padding-bottom: 4px;

@@ -13,12 +13,20 @@ interface OgMeta {
 
 const OG_META = [
   {
-    name: "twitter:creator", 
-    content: "@karan_corons",
+    name: "twitter:card",
+    content: "summary_large_image",
   },
   {
-    name: "twitter:site", 
-    content: "@karan_corons",
+    name: "twitter:title",
+    content: "What is vuejs/language-tools?",
+  },
+  {
+    name: "twitter:description",
+    content: "Vue.js v-tokyo Meetup #20 (May. 28th 2024)",
+  },
+  {
+    name: "twitter:image",
+    content: "/v_tokyo20/img/v_tokyo.png",
   },
   {
     name: "og:url", 
