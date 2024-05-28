@@ -498,8 +498,8 @@ vuejs/language-toolsの、`@vue/language-server` に、LSPに則って処理を�
 
 <div class="a_wrapper">
 <a target="_blank" href="https://github.com/vuejs/language-tools/blob/master/packages/language-server/node.ts">ref: https://github.com/vuejs/language-tools/blob/master/packages/language-server/node.ts</a>
-<a target="_blank" href="https://github.com/volarjs/volar.js/blob/master/packages/language-server/node.ts">ref: https://github.com/volarjs/volar.js/blob/master/packages/language-server/node.ts</a>
-<a target="_blank" href="https://github.com/volarjs/volar.js/blob/master/packages/language-server/protocol.ts">ref: https://github.com/volarjs/volar.js/blob/master/packages/language-server/protocol.ts</a>
+<a target="_blank" href="https://github.com/volarjs/volar.js/blob/master/packages/language-server/node.ts">https://github.com/volarjs/volar.js/blob/master/packages/language-server/node.ts</a>
+<a target="_blank" href="https://github.com/volarjs/volar.js/blob/master/packages/language-server/protocol.ts">https://github.com/volarjs/volar.js/blob/master/packages/language-server/protocol.ts</a>
 </div>
 
 <div class="abs-br mr-2 counter">
