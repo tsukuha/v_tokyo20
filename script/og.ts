@@ -14,7 +14,7 @@ interface OgMeta {
 const OG_META = [
   {
     name: "twitter:card",
-    content: "summary_large_image",
+    content: "summary",
   },
   {
     name: "twitter:title",
