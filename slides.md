@@ -169,12 +169,13 @@ vuejs/language-toolsはVue.js用の言語ツール群で、<br>
 
 - 言語サーバー機能に関するパッケージ例
   - `@vue/language-server`
-  - `vite-plugin-vue-component-preview`
-  - `@vue/typescript-plugin` .etc
+  - `@vue/typescript-plugin`
+  - `@vue/language-service`.etc
 
 - 型チェック機能に関するパッケージ例
-  - `Vue Language Feature`
-  - `vue-tsc` .etc
+  - `vue-tsc`
+  - `typescript-vue-plugin`.etc
+
 <div class="abs-br mr-2 counter">
   <SlideCurrentNo class="counter" />
 </div>
@@ -495,8 +496,11 @@ vuejs/language-toolsの、`@vue/language-server` に、LSPに則って処理を�
 
 <p v-click class="assertion">実コードをみてみましょう！</p>
 
-[ref: https://github.com/vuejs/language-tools/blob/master/packages/language-server/node.ts](https://github.com/vuejs/language-tools/blob/master/packages/language-server/node.ts)
-
+<div class="a_wrapper">
+<a target="_blank" href="https://github.com/vuejs/language-tools/blob/master/packages/language-server/node.ts">ref: https://github.com/vuejs/language-tools/blob/master/packages/language-server/node.ts</a>
+<a target="_blank" href="https://github.com/volarjs/volar.js/blob/master/packages/language-server/node.ts">ref: https://github.com/volarjs/volar.js/blob/master/packages/language-server/node.ts</a>
+<a target="_blank" href="https://github.com/volarjs/volar.js/blob/master/packages/language-server/protocol.ts">ref: https://github.com/volarjs/volar.js/blob/master/packages/language-server/protocol.ts</a>
+</div>
 
 <div class="abs-br mr-2 counter">
   <SlideCurrentNo class="counter" />
@@ -546,11 +550,14 @@ div, p, span, li, button, tr, td {
   font-size: 22px;
   line-height: 1.5;
 }
-a {
+.a_wrapper {
   opacity: 0.8;
   position: absolute;
   bottom: 16px;
   font-size: 16px;
+}
+.a_wrapper a {
+  display: block;
 }
 </style>
 
