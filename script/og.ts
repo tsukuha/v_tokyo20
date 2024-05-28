@@ -26,7 +26,7 @@ const OG_META = [
   },
   {
     name: "twitter:image",
-    content: "/v_tokyo20/img/v_tokyo.png",
+    content: "https://tsukuha.github.io/v_tokyo20/img/v_tokyo.png",
   },
   {
     name: "og:url", 
@@ -42,7 +42,7 @@ const OG_META = [
   },
   {
     name: "og:image",
-    content: "/v_tokyo20/img/v_tokyo.png",
+    content: "https://tsukuha.github.io/v_tokyo20/img/v_tokyo.png",
   },
 ] as const satisfies OgMeta[]
 

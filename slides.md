@@ -560,7 +560,7 @@ background: ./img/section-2.svg
 ---
 
 # vue-tscで理解するvuejs/language-tools
-## vue-tscの型チェッカー機能について
+## vue-tscの型チェック機能について
 - vuejs/language-core
 - Volar.js
 
